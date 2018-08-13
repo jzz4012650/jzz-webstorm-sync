@@ -5,6 +5,7 @@
     <keyboard-shortcut first-keystroke="meta alt left" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="ChangesView.GroupBy.Directory" />
   <action id="Console.Execute.Multiline" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditSource">
@@ -14,18 +15,10 @@
   <action id="EditorIndentSelection">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
-  <action id="EditorMoveToPageBottom">
-    <keyboard-shortcut first-keystroke="meta down" />
-  </action>
-  <action id="EditorMoveToPageBottomWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta down" />
-  </action>
-  <action id="EditorMoveToPageTop">
-    <keyboard-shortcut first-keystroke="meta up" />
-  </action>
-  <action id="EditorMoveToPageTopWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta up" />
-  </action>
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageBottomWithSelection" />
+  <action id="EditorMoveToPageTop" />
+  <action id="EditorMoveToPageTopWithSelection" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
@@ -36,16 +29,29 @@
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta alt right" />
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="GotoTest" />
+  <action id="Images.ShowThumbnails" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
@@ -57,11 +63,16 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
+  <action id="ParameterInfo" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl meta left" />
   </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
+  <action id="RunDashboard.ShowConfigurations" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
